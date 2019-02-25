@@ -15,8 +15,8 @@ body{
 }
 
 .skip:focus{
-	position:relative;
-	left: -2000px;
+  position:relative;
+  left: -2000px;
 }
 
 *:focus{
@@ -43,6 +43,12 @@ a.skip:hover {
     overflow: visible; 
 }
 
+@media screen and (min-width: 1100px) {
+   main {
+       padding: 0 20% 0px 20%;
+   }
+  }
+  
 /* 
                                   Styling
   */
@@ -225,7 +231,6 @@ img.cookie_monster {
 
 /*
                                    Quotes
-
 */ 
 /*Got this CSS from: https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/*/
 
@@ -256,17 +261,3 @@ blockquote:after {
 blockquote p {
   display: inline;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
